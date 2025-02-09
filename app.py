@@ -14,7 +14,7 @@ with open("model.pkl", "rb") as f:
 
   # input widget for getting user value for X (feature matrix value)
 
-  price = st.slider("Price_in_thousands", min_value=0, max_value=100, value=20)
+  price = st.slider("Price [thousand dollars]", min_value=0, max_value=100, value=20)
   
   # After selecting price, the user then submits the price value
   
